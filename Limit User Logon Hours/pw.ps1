@@ -1,0 +1,2 @@
+#Sera necessario criar a pasta em C:\scripts antes de executar o script
+Read-Host -Prompt “Digitar a senha do Admin Office 365” -AsSecureString | ConvertFrom-SecureString | Out-File "C:\scripts\pw.txt"
